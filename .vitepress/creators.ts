@@ -20,31 +20,19 @@ const getAvatarUrl = (name: string) => `https://github.com/${name}.png`
 
 export const creators: Creator[] = [
   {
-    name: '絢香猫',
+    name: 'phily',
     avatar: '',
-    username: 'nekomeowww',
-    title: 'philybase 原始创作者',
-    desc: '开发者，专注于基础设施维护，数据分析，后端、DevOps 开发',
+    username: 'phily',
+    title: '原始创作者',
+    desc: '知识库的本质，并非信息的堆砌，而是思想的沉淀。真正有价值的知识管理，不是收藏了多少资料，而是在持续提炼、连接与重组中，让信息变得可用、让经验可迁移、让认知不断进化。一个人的知识库，其实是一面镜子，映照着他如何看待世界、理解他人、面对未知。',
     links: [
-      { type: 'github', icon: 'github', link: 'https://github.com/nekomeowww' },
-      { type: 'twitter', icon: 'twitter', link: 'https://twitter.com/ayakaneko' },
+      { type: 'discord', icon: 'discord', link: 'https://discord.gg/hABSZ7zE' },
+      { type: 'telegram', icon: 'telegram', link: 'https://telegram.me/Bayesian_vlnk' },
     ],
-    nameAliases: ['nekomeowww', '绚香猫', '絢香猫', 'Neko Ayaka', 'Ayaka Neko'],
-    emailAliases: ['neko@ayaka.moe'],
+    nameAliases: ['phily'],
+    emailAliases: ['vlnk2022@outlook.com'],
   },
-  {
-    name: '絢香音',
-    avatar: '',
-    username: 'LittleSound',
-    title: 'philybase 原始创作者',
-    desc: '开源开发者，专注于前端，以及前端相关工具库和工具链开发',
-    links: [
-      { type: 'github', icon: 'github', link: 'https://github.com/LittleSound' },
-      { type: 'twitter', icon: 'twitter', link: 'https://twitter.com/OikawaRizumu' },
-    ],
-    nameAliases: ['LittleSound', '绚香音', '絢香音', 'Rizumu Oikawa', 'Rizumu Ayaka', 'Ayaka Rizumu', 'Rizumu'],
-    emailAliases: ['rizumu@ayaka.moe', 'rizumu@oqo.moe'],
-  },
+
 ].map<Creator>((c) => {
   c.avatar = c.avatar || getAvatarUrl(c.username)
   return c as Creator

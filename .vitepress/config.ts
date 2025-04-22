@@ -90,17 +90,17 @@ export default defineConfig({
     }],
 
     ['meta', {
-      name: 'twitter:card',
+      name: 'telegram:card',
       content: 'summary_large_image',
     }],
     ['meta', {
-      name: 'twitter:creator',
+      name: 'telegram:creator',
       content: creatorUsernames.join(', '),
     }],
     [
       'meta',
       {
-        name: 'twitter:image',
+        name: 'telegram:image',
         content: `${targetDomain}/og.png`,
       },
     ],

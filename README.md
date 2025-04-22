@@ -22,7 +22,7 @@ pnpm docs:build # 构建网站发布所需要的资源, build之后在 .vitepres
 需要修改的内容：
 - 可以修改 metadata/index.ts 配置一下自己的网站信息
 - 再修改一下 index.md 配置一下首页
-- 修改 `.vitepress/creators.ts`, 添加你的 github 地址，这样的话，在每个文章下面的贡献者那里就能够链接到你的 github 首页（否则只是一个名字，无法点击）。
+- 修改 `.vitepress/creators.ts`, 添加你的 github 地址，这样的话，在每个文章下面的phily那里就能够链接到你的 github 首页（否则只是一个名字，无法点击）。
 
 ## 部署
 ### vercel 部署

@@ -29,7 +29,7 @@ export default defineConfig(async () => {
           return '文件历史'
         },
         getContributorsTitle: (): string => {
-          return '贡献者'
+          return 'phily'
         },
         excludes: [
           'toc.md',

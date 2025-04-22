@@ -3,16 +3,16 @@
   "type": "module",
   "version": "1.0.0",
   "author": {
-    "name": "Nólëbase",
-    "email": "nolebase@ayaka.moe",
-    "url": "https://github.com/nolebase"
+    "name": "philybase",
+    "email": "vlnk2022@outlook.com",
+    "url": "https://github.com/philybase"
   },
   "license": "MIT",
   "keywords": [
     "vitepress",
-    "nolebase",
+    "philybase",
     "markdown",
-    "nolebase-integration",
+    "philybase-integration",
     "obsidian",
     "knowledge-base",
     "vitepress-doc"

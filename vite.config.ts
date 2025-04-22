@@ -7,7 +7,7 @@ import { GitChangelog, GitChangelogMarkdownSection } from '@nolebase/vitepress-p
 import { PageProperties, PagePropertiesMarkdownSection } from '@nolebase/vitepress-plugin-page-properties/vite'
 import { ThumbnailHashImages } from '@nolebase/vitepress-plugin-thumbnail-hash/vite'
 
-import { githubRepoLink } from './metadata'
+import { telegramLink } from './metadata'
 
 export default defineConfig(async () => {
   return {
@@ -22,7 +22,7 @@ export default defineConfig(async () => {
     plugins: [
       Inspect(),
       GitChangelog({
-        repoURL: () => githubRepoLink,
+        repoURL: () => telegramLink,
       }),
       GitChangelogMarkdownSection({
         getChangelogTitle: (): string => {
